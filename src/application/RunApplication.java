@@ -13,6 +13,7 @@ public class RunApplication {
 		System.out.print("Quantidade de termos: ");
 		int termos = reader.nextInt();
 
+		System.out.print("\nResultado: ");
 		for (int i = termos; i > 0; i--) {
 			System.out.print(a + " - ");
 			int c = a + b;
